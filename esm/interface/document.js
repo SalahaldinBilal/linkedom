@@ -1,4 +1,4 @@
-import {performance} from 'perf_hooks';
+const performance = globalThis.performance;
 
 import {DOCUMENT_NODE, DOCUMENT_FRAGMENT_NODE, DOCUMENT_TYPE_NODE, ELEMENT_NODE, SVG_NAMESPACE} from '../shared/constants.js';
 
